@@ -1,11 +1,34 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.30804.86
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.1321
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CUDA 프로그래밍", "CUDA 프로그래밍", "{106EF9F3-6315-4CB6-84D0-B184FBA2E95D}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "HelloWorld", "HelloWorld\HelloWorld.vcxproj", "{C46DD9B4-D983-475E-9C16-0E4AC0F98576}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "HomeWork자료", "HomeWork자료", "{0EC8BE96-9F20-438D-A0A3-B29F4029BF25}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1_Add_Flip", "1_Add_Flip", "{226619E8-CEF3-4750-A3E0-BBA6AB7A2B54}"
+	ProjectSection(SolutionItems) = preProject
+		HomeWork자료\1_Add_Flip\addition.cu = HomeWork자료\1_Add_Flip\addition.cu
+		HomeWork자료\1_Add_Flip\flipx.cu = HomeWork자료\1_Add_Flip\flipx.cu
+		HomeWork자료\1_Add_Flip\flipy.cu = HomeWork자료\1_Add_Flip\flipy.cu
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2_Transpose_Multiply", "2_Transpose_Multiply", "{A3D4829E-E276-4EAB-8EF0-4059E5871D21}"
+	ProjectSection(SolutionItems) = preProject
+		HomeWork자료\2_Transpose_Multiply\multiply_1024.cu = HomeWork자료\2_Transpose_Multiply\multiply_1024.cu
+		HomeWork자료\2_Transpose_Multiply\multiply_128.cu = HomeWork자료\2_Transpose_Multiply\multiply_128.cu
+		HomeWork자료\2_Transpose_Multiply\multiply_32.cu = HomeWork자료\2_Transpose_Multiply\multiply_32.cu
+		HomeWork자료\2_Transpose_Multiply\transpose.cu = HomeWork자료\2_Transpose_Multiply\transpose.cu
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3_InnerProduct_medianFilter5", "3_InnerProduct_medianFilter5", "{754E1042-827A-4675-AFB2-A2E28D70DD5B}"
+	ProjectSection(SolutionItems) = preProject
+		HomeWork자료\3_InnerProduct_medianFilter5\innerproduct.cu = HomeWork자료\3_InnerProduct_medianFilter5\innerproduct.cu
+		HomeWork자료\3_InnerProduct_medianFilter5\medfilt5.cu = HomeWork자료\3_InnerProduct_medianFilter5\medfilt5.cu
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -29,6 +52,9 @@ Global
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{C46DD9B4-D983-475E-9C16-0E4AC0F98576} = {106EF9F3-6315-4CB6-84D0-B184FBA2E95D}
+		{226619E8-CEF3-4750-A3E0-BBA6AB7A2B54} = {0EC8BE96-9F20-438D-A0A3-B29F4029BF25}
+		{A3D4829E-E276-4EAB-8EF0-4059E5871D21} = {0EC8BE96-9F20-438D-A0A3-B29F4029BF25}
+		{754E1042-827A-4675-AFB2-A2E28D70DD5B} = {0EC8BE96-9F20-438D-A0A3-B29F4029BF25}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {B56806A8-1982-4506-B3FE-8B752C50E110}
