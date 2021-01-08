@@ -13,7 +13,7 @@
   <PropertyGroup Label="Globals">
     <ProjectGuid>{5E31205F-C647-49E7-B14D-22CCD178BE63}</ProjectGuid>
     <RootNamespace>_4_2_2_Julia_Set</RootNamespace>
-    <ProjectName>4.2.2 Julia Set</ProjectName>
+    <ProjectName>04.2.2 Julia Set</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">

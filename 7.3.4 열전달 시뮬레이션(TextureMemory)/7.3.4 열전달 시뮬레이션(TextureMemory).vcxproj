@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup Label="ProjectConfigurations">
     <ProjectConfiguration Include="Debug|x64">
@@ -11,9 +11,9 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{4ACC96F0-D83F-4B3F-9DFE-35A0DB964C82}</ProjectGuid>
-    <RootNamespace>_5_3_3_Shared_Memory_Bitmap</RootNamespace>
-    <ProjectName>05.3.3 Shared Memory Bitmap</ProjectName>
+    <ProjectGuid>{74CF0054-3F53-4896-86C4-CB6444D5FCAF}</ProjectGuid>
+    <RootNamespace>_7_3_4_열전달_시뮬레이션_TextureMemory_</RootNamespace>
+    <ProjectName>07.3.4 열전달 시뮬레이션(TextureMemory)</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
@@ -42,6 +42,10 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <LinkIncremental>true</LinkIncremental>
+    <IncludePath>C:\Users\doolly777\source\repos\CUDA_Study\CUDA programming\common;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Users\doolly777\source\repos\CUDA_Study\CUDA programming\lib;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <IncludePath>C:\Users\doolly777\source\repos\CUDA_Study\CUDA programming\common;$(IncludePath)</IncludePath>
     <LibraryPath>C:\Users\doolly777\source\repos\CUDA_Study\CUDA programming\lib;$(LibraryPath)</LibraryPath>
   </PropertyGroup>

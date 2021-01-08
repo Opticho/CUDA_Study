@@ -115,7 +115,7 @@ int main(void) {
 	HANDLE_ERROR(cudaEventDestroy(stop));
 
 	// 화면에 출력한다.
-	//bitmap.display_and_exit();
+	bitmap.display_and_exit();
 
 	// 메모리를 해제한다.
 	cudaFree(dev_bitmap);

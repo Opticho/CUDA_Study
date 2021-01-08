@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup Label="ProjectConfigurations">
     <ProjectConfiguration Include="Debug|x64">
@@ -11,9 +11,10 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{4ACC96F0-D83F-4B3F-9DFE-35A0DB964C82}</ProjectGuid>
-    <RootNamespace>_5_3_3_Shared_Memory_Bitmap</RootNamespace>
-    <ProjectName>05.3.3 Shared Memory Bitmap</ProjectName>
+    <ProjectGuid>{B4065450-8D1B-40DD-B4DA-B5B0BECFA8BD}</ProjectGuid>
+    <RootNamespace>_9_4_2_GPU_히스토그램_계산</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>09.4.2 GPU 히스토그램 계산</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
@@ -45,11 +46,17 @@
     <IncludePath>C:\Users\doolly777\source\repos\CUDA_Study\CUDA programming\common;$(IncludePath)</IncludePath>
     <LibraryPath>C:\Users\doolly777\source\repos\CUDA_Study\CUDA programming\lib;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <IncludePath>C:\Users\doolly777\source\repos\CUDA_Study\CUDA programming\common;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Users\doolly777\source\repos\CUDA_Study\CUDA programming\lib;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
       <PreprocessorDefinitions>WIN32;WIN64;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <LanguageStandard>stdcpplatest</LanguageStandard>
+      <LanguageStandard_C>stdc17</LanguageStandard_C>
     </ClCompile>
     <Link>
       <GenerateDebugInformation>true</GenerateDebugInformation>
@@ -78,6 +85,8 @@
     <CudaCompile>
       <TargetMachinePlatform>64</TargetMachinePlatform>
     </CudaCompile>
+    <CudaLink />
+    <CudaLink />
   </ItemDefinitionGroup>
   <ItemGroup>
     <CudaCompile Include="kernel.cu" />

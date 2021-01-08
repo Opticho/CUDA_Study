@@ -13,6 +13,7 @@
   <PropertyGroup Label="Globals">
     <ProjectGuid>{03BFD98B-2000-4E2D-A655-B3D61BB38206}</ProjectGuid>
     <RootNamespace>_5_2_1_Vector_Sum</RootNamespace>
+    <ProjectName>05.2.1 Vector Sum</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">

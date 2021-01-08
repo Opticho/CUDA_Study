@@ -13,6 +13,7 @@
   <PropertyGroup Label="Globals">
     <ProjectGuid>{25D40B6B-E3C3-4C67-BDF8-E412C17B15AB}</ProjectGuid>
     <RootNamespace>_6_2_2_GPU_Ray_Tracing</RootNamespace>
+    <ProjectName>06.2.2 GPU Ray Tracing</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">

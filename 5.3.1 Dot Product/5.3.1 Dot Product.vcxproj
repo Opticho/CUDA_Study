@@ -13,6 +13,7 @@
   <PropertyGroup Label="Globals">
     <ProjectGuid>{3DC3F2CF-D210-4F1E-AE00-5F3A91C7AD63}</ProjectGuid>
     <RootNamespace>_5_3_1_Dot_Product</RootNamespace>
+    <ProjectName>05.3.1 Dot Product</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
@@ -41,6 +42,10 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <LinkIncremental>true</LinkIncremental>
+    <IncludePath>C:\Users\doolly777\source\repos\CUDA_Study\CUDA programming\common;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Users\doolly777\source\repos\CUDA_Study\CUDA programming\lib;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <IncludePath>C:\Users\doolly777\source\repos\CUDA_Study\CUDA programming\common;$(IncludePath)</IncludePath>
     <LibraryPath>C:\Users\doolly777\source\repos\CUDA_Study\CUDA programming\lib;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
