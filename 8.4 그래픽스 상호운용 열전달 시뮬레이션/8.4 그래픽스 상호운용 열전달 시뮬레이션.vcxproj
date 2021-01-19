@@ -14,7 +14,7 @@
     <ProjectGuid>{1C38FC3C-B373-4982-9466-8B85F8291168}</ProjectGuid>
     <RootNamespace>_8_4_그래픽스_상호운용_열전달_시뮬레이션</RootNamespace>
     <ProjectName>08.4 그래픽스 상호운용 열전달 시뮬레이션</ProjectName>
-    <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
+    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">

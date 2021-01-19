@@ -131,7 +131,7 @@ __global__ void float_to_color( uchar4 *optr,
     #include <windows.h>
 
     typedef HANDLE CUTThread;
-    typedef unsigned (WINAPI *CUT_THREADROUTINE)(void *);
+    typedef unsigned (WINAPI* CUT_THREADROUTINE)(void *);
 
     #define CUT_THREADPROC unsigned WINAPI
     #define  CUT_THREADEND return 0

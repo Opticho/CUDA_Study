@@ -14,7 +14,7 @@
     <ProjectGuid>{4849877B-8154-4E3B-8DFD-7F40A53BB3C6}</ProjectGuid>
     <RootNamespace>_7_3_5_열전달_시뮬레이션_TextureMemory2D_</RootNamespace>
     <ProjectName>07.3.5 열전달 시뮬레이션(TextureMemory2D)</ProjectName>
-    <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
+    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
