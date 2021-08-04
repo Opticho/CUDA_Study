@@ -19,7 +19,7 @@ cudaGraphicsResource* resource;
 // 물결 코드를 기반으로 하지만 그래픽 상호운용에서 사용하는 데이터 타입인 uchar4를 이용한다.
 __global__ void kernel(uchar4* ptr) {
 	// threadIdx,blockIdx로 픽셀 위치를 결정한다.
-	int x = threadIdx.x + blockIdx.x * blockDim.x;
+	int x = threadIdx.x + blockIdx.x * blockDim.x; 
 	int y = threadIdx.y + blockIdx.y * blockDim.y;
 	int offset = x + y * blockDim.x * gridDim.x;
 
